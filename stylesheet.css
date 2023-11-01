@@ -1,0 +1,247 @@
+body{
+    background-color:#000000;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    display:flex;
+}
+.nav1{
+    padding:20px;
+    color:white;
+    background:#121212;
+    width:420px;
+    height:130px;
+    border-radius:7px;
+}
+.fa-solid{
+    padding-right:3.5%;
+}
+ul, li{
+    padding-left:0;
+}
+.home-icon, .search-icon{
+    list-style:none;
+    text-align:left;
+    padding:4%;
+    padding-left:0;
+    cursor:pointer;
+}
+.nav2{
+    margin-top:2%;
+    padding:20px;
+    color:white;
+    background:#121212;
+    width:420px;
+    height:478px;
+    border-radius:7px;
+}
+.yourLibrary{
+    margin:1px 0px;
+}
+.fa-plus{
+    float:right;
+    cursor:pointer;
+    padding:5px;
+}
+.fa-plus:hover{
+    border-radius:9999px;
+    background:#242424;
+}
+.library-features{
+    height:230px;
+    width:440px;
+    overflow-x:scroll; 
+    /* limiting the height of the library-features and let it overflow */
+}
+.line1{
+    margin-bottom:0px;
+}
+.line2{
+    font-size:x-small;
+    margin-top:12px;
+}
+.button{
+    border-radius:9999px;
+    cursor:pointer;
+    font-weight:700;
+    margin-top:4%;
+    padding:2.3%;
+    padding-left:4%;
+    padding-right:4%;
+    border:none;
+}
+.button:hover,.button1:hover, .button2:hover, .button3:hover{
+    transform: scale(1.06);
+}
+.playlist, .podcast{
+    box-sizing:border-box;
+    width:420px;
+    height:140px;
+    background:#242424;
+    border-radius:7px;
+    margin:16px 0px;
+    padding:1px 20px;
+}
+.information{
+    display:flex;
+    flex-wrap:wrap;
+    margin:32px 0px;
+
+}
+.information a{
+    padding:28px 28px 0px 0px; 
+    font-size:11px;
+    color:#a7a7a7;
+    text-decoration:none;
+}
+.play-area{
+    width:1200px;
+    background:#090909;
+    margin-left:9px;
+    border-radius:7px;
+}
+.menu{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:20px 20px;
+}
+.menu-one{
+    display:flex;
+}
+.menu-two{
+    display:flex;
+    justify-content:right;
+}
+.button1{
+    color:white;
+    background:transparent;
+    border:none;
+    padding:8px 20px ;
+    font-size:25px;
+    cursor:pointer;
+}
+.button2{
+    color:#a7a7a7;
+    background:none;
+    border:none;
+    width:84px;
+    font-weight:900;
+    padding:8px 20px;
+    cursor:pointer;
+    text-decoration:none;
+}
+.button2:hover{
+    color:white;
+}
+.button3{
+    border-radius:9999px;
+    border:none;
+    cursor:pointer;
+    font-weight:600;
+    padding:8px 32px;
+    background:white;
+    text-decoration:none;
+    /* white-space: nowrap mitigates the text to appear in a single line */
+    white-space:nowrap;
+    color:black;
+}
+/* @media screen and (max-width:800px) {
+} */
+.spotify-body{
+    background:#121212; 
+    height:610px; /**related to scroll feature**/
+    padding:1px 0px;
+    overflow:scroll; /**related to scroll feature**/
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+}
+.playlist-head{
+    color:#ffffff;
+    font-size:20px;
+    font-weight:bolder;
+    padding:0px 20px;
+}
+.playlist-body{
+    display:flex;
+    flex-wrap:wrap;
+}
+.box{
+    width:211px;
+    height:295px;
+    background:#171717;
+    box-sizing:border-box;
+    border-radius:7px;
+    margin:16px 0px 16px 24px;
+    padding:15px 15px;
+    cursor:pointer;
+}
+.box:hover{
+    background:#242424;
+}
+.box a{
+    text-decoration:none;
+}
+.description1{
+    color:#ffffff;
+}
+.description2{
+    color:#a7a7a7;
+    font-size:small;
+}
+
+.spotify-footer{
+    padding:8px 32px 40px;
+    margin:50px 0px;
+}
+.company, .communities, .links{
+    color:white;
+    display:grid;
+    margin:0px 0px 32px;
+}
+.spotify-footer a{
+    text-decoration:none;
+    color:#a7a7a7;
+    margin:5px 0px;
+}
+.spotify-footer a:hover{
+    text-decoration:underline;
+    color:white;
+}
+.social .fa-brands{
+    border-radius:9999px;
+    background:#292929;
+    padding:15px;
+    margin-top:13px;
+    margin-right:13px;
+}
+.copyright{
+    color:#a7a7a7;
+    border-top:0.1px solid #a7a7a7;
+    margin:40px 0px;
+    padding:40px 0px 0px;
+}
+.page-footer{
+    width:97.15%;
+    /* postion fixed and bottom 0 maintains the footer at the bottom location */
+    position:fixed; 
+    bottom:0;
+    height:91px;
+    color:#ffffff;
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+    padding:0px 16px 8px;
+    margin:8px 0px;
+}
+.heading{
+    font-size:12px;
+    letter-spacing:1px;
+}
+.preview{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+/* makes the scrollbar invisible */
+::-webkit-scrollbar {
+    display:none;
+}
